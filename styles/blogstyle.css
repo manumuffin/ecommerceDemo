@@ -1,0 +1,70 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 400;
+    background: #fff;
+    color: #1e1e27;
+}
+
+div {
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+}
+
+h1{font-size: 72px;}
+h2{font-size: 40px;}
+h3{font-size: 28px;}
+h4{font-size: 24px;}
+h5{font-size: 16px;}
+h6{font-size: 14px;}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #282828;
+    -webkit-font-smoothing: antialised;     
+    text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;       
+}
+
+.section_title {
+    display: inline-block;
+    text-align: center;
+}
+
+
+
+.blog-posts {
+    margin: 14rem 5rem;
+}
+
+.blog-post {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    
+}
+
+.blog-post img {
+    border-radius: 3px;
+    max-width: 30%;
+    object-fit: cover;
+    padding-left: 2rem;
+}
+
+.blog-description {
+    display: flex;
+    flex-direction: column;
+    padding-left: 4rem;;
+}
+
+.blog-description p {
+    max-width: 35rem;
+}
